@@ -1,0 +1,27 @@
+/*
+	Author: Abri Abrams
+	File: reset.css
+	Date: 10.06.19
+	Project: Travel Site
+*/
+/*Structure Reset*/
+
+/*Text Reset*/
+article, body, div, footer, h1, h2, h3, h4, h5, h6, header,
+html, img, li, ul, nav, nav a, span {
+  margin: 0px;
+  padding: 0px;
+  border: 0px;
+  background: transparent;
+  box-sizing: border-box;
+}
+/*Page Element Reset*/
+body {
+  line-height: 10px;
+}
+
+.navbar-base {
+  list-style: none;
+  list-style-image: none;
+  text-decoration: none;
+}

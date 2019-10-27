@@ -1,0 +1,215 @@
+/*
+	Author: Abri Abrams
+	File: styles.css
+	Date: 10.06.19
+	Project: Travel Site
+*/
+/*Structural Set Up*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/*Quality of Life Styles*/
+html {
+  /*background-image: url("images/back-up.jpg");*/
+	background-repeat: no-repeat,repeat;
+  background-position: center;
+	background-color: #f3c9f5;
+}
+#grad1 {
+    height: 200px;
+   background-image: linear-gradient(to bottom right, #f3c9f5, #ccefff);
+}
+header p, h2{
+  text-shadow: 2px 8px 8px #595959;
+  line-height: 30px;
+}
+h2{
+  font-family: 'Armata', sans-serif;
+}
+.slogan {
+  font-family: 'Autour One', cursive;
+  text-align: center;
+
+}
+p {
+  font-family: 'Armata', sans-serif;
+  font-size: 1.2em;
+  line-height: 25px;
+  text-align: center;
+}
+.contact {
+  font-family: 'Armata', sans-serif;
+  text-align: center;
+  background-color: #eca9ef;
+  width:500px;
+  border-radius: 10px;
+  padding: 20px;
+  margin: auto;
+  line-height: 50px;
+}
+/*Nav Styles*/
+.navbar-base {
+  width: 100%;
+  height: 60px;
+  background-color: white;
+}
+
+nav p {
+  font-family: 'Autour One', cursive;
+  color: #222;
+  font-size: 24px;
+  line-height: 55px;
+  float: left;
+  padding: 0px 20px;
+}
+
+.nav-links {
+  float: left;
+  font-family: 'Armata', sans-serif;
+}
+
+nav ul li {
+  float: left;
+  list-style: none;
+  position: relative;
+}
+
+nav ul li a {
+  display: block;
+  font-family: 'Armata', sans-serif;
+  color: #222;
+  font-size: 14px;
+  padding: 22px 14px;
+  text-decoration: none;
+}
+
+nav ul li ul {
+  display: none;
+  position: absolute;
+  background-color: #f5eeba;
+  padding: 6px;
+  border-radius: 0px 0px 4px 4px;
+}
+
+nav ul li:hover ul {
+  display: block;
+
+}
+
+.nav-drop {
+  width: 180px;
+  border-radius: 4px;
+}
+
+nav ul li ul li a {
+  padding: 8px 14px;
+}
+
+nav ul li ul li a:hover {
+  background-color:  #ecde79;
+}
+
+/*Column Styles*/
+.column1 {
+  float: left;
+  width: 33.33%;
+  height: auto;
+  padding: 10px;
+  background-color: #ccf2ff;
+  column-gap: 20px;
+}
+.column2 {
+  float: left;
+  width: 33.33%;
+  height: auto;
+  padding: 10px;
+  background-color: #ffcccc;
+  column-gap: 20px;
+}
+.column3 {
+  float: left;
+  width: 33.33%;
+  height: auto;
+  padding: 10px;
+  background-color: #ccffcc;
+  column-gap: 20px;
+}
+.row1 {
+  column-gap: 20px;
+  font-family: 'Armata', sans-serif;
+  font-size: 0.8em;
+  text-align: center;
+}
+.container {
+  display: grid;
+ height: 500px;
+ grid-template-columns: 3fr 3fr 3fr;
+ grid-template-rows: auto;
+ padding: 20px;
+ align-items: center;
+}
+.item {
+  width:auto;
+  height: 225px;
+  background: #e793eb;
+  border: 2px dashed #cf28d7;
+  padding: 20px;
+  text-align: center;
+}
+.item2 {
+  width:auto;
+  height: auto;
+  background: #e793eb;
+  border: 2px dashed #cf28d7;
+  padding: 20px;
+  align-items: center;
+}
+
+/*Image Styles*/
+.humans img {
+  border-radius: 75%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  filter: contrast(150%);
+}
+
+/*Sidebar Nav*/
+.sidenav {
+  height: auto;
+  width: 160px;
+  position: fixed;
+
+  top: 60px;
+  right: 0px;
+  background-color: #bf80ff;
+  overflow-x: hidden;
+  padding-top: 20px;
+}
+
+/* The navigation menu links */
+.sidenav a {
+  padding: 6px 8px 6px 16px;
+  font-size: .8em;
+  color: #400080;
+  display: block;
+  font-family: 'Armata', sans-serif;
+}
+
+/* When you mouse over the navigation links, change their color */
+.sidenav a:hover {
+  color: #f1f1f1;
+}
+
+/*Media Queries*/
+@media screen and (max-width:360px) {
+
+}
+@media screen and (min-width:361px) and (max-width:999px) {
+
+}
+@media screen and (min-width:1000px){
+
+}

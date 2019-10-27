@@ -1,0 +1,26 @@
+/*
+	Author: Abri Abrams
+	File: print.css
+	Date: 10.06.19
+	Project: Travel Site
+*/
+/*Hidden Stuff*/
+
+header p {
+  font-size: 12px;
+  padding: 0px;
+  margin: 0px;
+}
+.navbar-base, footer {
+  display: none;
+}
+
+/*Formatting*/
+
+body, img {
+  color: black;
+}
+
+@page {
+  margin: 0.5cm;
+}

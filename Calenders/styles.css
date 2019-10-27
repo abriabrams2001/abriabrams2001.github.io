@@ -1,0 +1,27 @@
+/*
+	Name: Abri Abrams
+	File: styles.css
+	Date: 9.28.19
+	Due: 9.30.19
+	Assignment: Two Calendars
+*/
+
+/* Font Styles */
+
+/*Structural Styles */
+
+/*Header Rules */
+
+/* Navigation Styles */
+
+/*Main Content Styles */
+
+/*Grid Styles*/
+.calendar
+{
+  grid-template-columns: repeat(7, 40px);
+  grid-template-rows: repeat(5, 40px);
+}
+/*Flex Styles*/
+
+/*Footer Styles*/
