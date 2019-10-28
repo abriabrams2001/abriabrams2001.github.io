@@ -1,0 +1,53 @@
+/*
+Author: Abri Abrams
+Date: 10-23-19
+File: styles.css
+*/
+ body {
+   text-align: center;
+   background-image: url('images/bg.png');
+   background-color: black;
+   color: white;
+ }
+ p {
+   font-family: 'Muli', sans-serif;
+   font-size: 1.2em;
+ }
+ table, th, td {
+   padding: 15px;
+   margin-left: auto;
+   margin-right: auto;
+  color: #666666;
+  border-color: #801a00;
+  border-radius: 8px;
+ }
+ tr {
+   font-family: 'Muli', sans-serif;
+   background-color: #eee;
+   color: #666666;
+ }
+h1 {
+  font-family: 'Liu Jian Mao Cao', cursive;
+  font-size: 4em;
+}
+nav {
+  color: white;
+  font-family: 'Muli', sans-serif;
+  border-style: solid;
+  border: 5px solid red;
+  border-radius: 5px;
+  text-decoration: none;
+  background-color:  #801a00;
+  margin-left: 12em;
+  margin-right: 12em;
+}
+nav a:hover{
+  color: #ff704d;
+  text-decoration: none;
+  background-color:  #801a00;
+}
+nav a:visited{
+  color: #ffd6cc;
+  text-decoration: none;
+  background-color:  #801a00
+}

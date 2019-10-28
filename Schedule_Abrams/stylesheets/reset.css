@@ -1,0 +1,22 @@
+/*
+Author: Abri Abrams
+Date: 10-23-19
+File: styles.css
+*/
+body, p {
+  font-size: 1.2em;
+}
+table, th, td, tr {
+  padding: 15px;
+  margin-left: auto;
+  margin-right: auto;
+ border-radius: 8px;
+}
+h1 {
+ font-size: 4em;
+ text-decoration: none;
+}
+nav, nav a:hover, nav a:visited {
+font-size: .8em;
+text-decoration: none;
+}
