@@ -3,3 +3,12 @@
 Author: Abri Abrams
 File: styles.css
 */
+h1, h3 {
+  font-family: 'Oswald', sans-serif;
+  text-align: center;
+}
+
+/*
+font-family: 'Oswald', sans-serif;
+font-family: 'Oxygen', sans-serif;
+*/
